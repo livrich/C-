@@ -16,9 +16,8 @@
 
 {Describe the programming language that you used and any libraries.}
 
-# Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+# Useful Websites
 * [w3schools](https://www.w3schools.com/cs/cs_type_casting.php)
 * [Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number)
 * [Code Grepper](https://www.codegrepper.com/code-examples/csharp/c%23+randomly+generate+numbers+between+1+and+3)

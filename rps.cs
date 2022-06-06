@@ -16,15 +16,19 @@ namespace RockPaperScissors
                 // Capture keyboard input from user and save it to variable
                 string wantToPlay = Console.ReadLine();
 
+                // I couldn't get this form of "if" statement to work once I added the function call
                 // variable = (condition) ? expressionTrue :  expressionFalse;
                 // string result = (wantToPlay == "y") ? playGame() : "Ok, bye!";
                 // Console.WriteLine(result);
-                if (wantToPlay == "y")
+
+                if (wantToPlay.ToLower() == "y")
                 {
+                    // call function
                     playGame();
+                    // exit function back to here, then exit this loop, which ends program
                     break;
                 }
-                else if (wantToPlay == "n")
+                else if (wantToPlay.ToLower() == "n")
                 {
                     Console.WriteLine("Ok, bye!");
                     break;
@@ -33,17 +37,23 @@ namespace RockPaperScissors
                 {
                     Console.WriteLine("That is not an option.");
                     Console.WriteLine("Please type y or n.\n");
+                    // How long the delay will be in milliseconds
                     int myDelay = 2000;
+                    // Delay program for 2 seconds
                     Thread.Sleep(myDelay);
                 }
             }
         }
 
+        // Logic for actual game
         static void playGame()
         {
+            // Will keep game going until told to exit
             while (true)
             {
+                // Blank line helps things look better
                 Console.WriteLine("");
+                // Options that can be selected
                 Console.WriteLine("Options:\n" +
                                 "1. Rock\n" +
                                 "2. Paper\n" +
@@ -52,6 +62,7 @@ namespace RockPaperScissors
                 Console.WriteLine("Pick 1, 2, 3, or 4:");
                 string userPick = Console.ReadLine();
 
+                // Say what user did
                 if (userPick == "1")
                 {
                     Console.WriteLine("You picked Rock");
@@ -71,6 +82,7 @@ namespace RockPaperScissors
                 }
                 else
                 {
+                    // Make sure the user picks a valid option
                     Console.WriteLine("That is not a valid option.");
                     Console.WriteLine("Please pick again.");
                     // How long the delay will be in milliseconds
@@ -80,9 +92,12 @@ namespace RockPaperScissors
                     continue;
                 }
 
+                // How to set up getting a random number
                 Random rnd = new Random();
+                // Pick a random number between 1 and 3
                 int computerPick = rnd.Next(1, 4);
 
+                // Say what computer did
                 if (computerPick == 1)
                 {
                     Console.WriteLine("Computer picked Rock");
@@ -103,13 +118,20 @@ namespace RockPaperScissors
                 // Convert string to int
                 int userPickInt = Int16.Parse(userPick);
 
+                // Different win, lose, and tie conditions
+                // Tie condition
                 if (userPickInt == computerPick)
                 {
                     Console.WriteLine("You tied");
+                    // Delay 1.5 seconds
                     int myDelay = 1500;
+                    // Meant to give user time to read result
+                    // before menu options are displayed again
                     Thread.Sleep(myDelay);
+                    // Skip checking the rest of the loop
                     continue;
                 }
+                // User win conditions
                 else if ((userPickInt == 1 && computerPick == 3) ||
                          (userPickInt == 2 && computerPick == 1) ||
                          (userPickInt == 3 && computerPick == 2))
@@ -119,6 +141,7 @@ namespace RockPaperScissors
                     Thread.Sleep(myDelay);
                     continue;
                 }
+                // User lose condition
                 else
                 {
                     Console.WriteLine("You lose");

@@ -8,9 +8,9 @@ After getting Hello World to run, I thought the next thing to do was read docume
 
 I would work until I needed to learn another concept, like how to make a loop.  Then I would typically turn to w3schools to read how to do something or Google an answer if w3schools didn't mention a specific concept.  By doing this, it only took me a few hours to get rock paper scissors working.  I tested my code as I went, but added some extra error handling that I tested at the end.  I then added some extra comments and called it good.  Right now, the game runs without any problems and helped me learn the basics of C# that I would like to apply to a more challenging project at some point.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
+This video is me briefly explaining the code for my rock paper scissors game and demonstrating it working.
+[Rock Paper Scissors Video](https://youtu.be/L4tck7jmY_8)
 
-[Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 

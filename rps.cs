@@ -165,7 +165,6 @@ namespace RockPaperScissors
 
 /* Questions I have:
 - How do you ask for input on the same line as the question?
-- Can I make text display as bold?
 - How does the "if statement on one line" work?
     * Do the true/false options hve to be simple strings?
  */

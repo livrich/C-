@@ -2,9 +2,9 @@
 
 My goal was to learn the basics of C#.  For a simple project, the first thing I thought of was rock paper scissors.
 
-My first task was to set up a wokring environment for C#.  I followed what the internet recommended and then tried to run a simple Hello World program.  It didn't work.  I spent a lot of time trying to fix how I set up my environment just to realize I was incorrectly running the Hello World program from the command line.  Haha, whoops.  Once I make the C# file into an executable file and then ran that file, everything worked perfectly.  Turns out I actually set everything up right, I just wasn't calling things correctly.  In the future, before trying to fix the enviroment for a new language that isn't working, I'm going to make sure I'm calling the code correctly first.
+My first task was to set up a working environment for C#.  I followed what the internet recommended and then tried to run a simple Hello World program.  It didn't work.  I spent a lot of time trying to fix how I set up my environment just to realize I was incorrectly running the Hello World program from the command line.  Haha, whoops.  Once I make the C# file into an executable file and then ran that file, everything worked perfectly.  Turns out I actually set everything up right, I just wasn't calling things correctly.  In the future, before trying to fix the environment for a new language that isn't working, I'm going to make sure I'm calling the code correctly first.
 
-After getting Hello World to run, I thought the next thing to do was read documentaion and go through some basic tutorials.  Fairly quickly, I became bored of the slow moving tutorials.  If I wasn't on a deadline, I wouldn't mind going through some of the better tutorials I found.  I ended up skipping the rest of the tutorials and documentation reading.  Instead, I decided to jump right into coding rock paper scissors.
+After getting Hello World to run, I thought the next thing to do was read documentation and go through some basic tutorials.  Fairly quickly, I became bored of the slow-moving tutorials.  If I wasn't on a deadline, I wouldn't mind going through some of the better tutorials I found.  I ended up skipping the rest of the tutorials and documentation reading.  Instead, I decided to jump right into coding rock paper scissors.
 
 I would work until I needed to learn another concept, like how to make a loop.  Then I would typically turn to w3schools to read how to do something or Google an answer if w3schools didn't mention a specific concept.  By doing this, it only took me a few hours to get rock paper scissors working.  I tested my code as I went, but added some extra error handling that I tested at the end.  I then added some extra comments and called it good.  Right now, the game runs without any problems and helped me learn the basics of C# that I would like to apply to a more challenging project at some point.
 
@@ -32,7 +32,7 @@ I would work until I needed to learn another concept, like how to make a loop.  
 # Future Work
 
 Overall, I think my rock paper scissors game is working well. With C# in general, I would like to:
-* Figure out how to use the one line conditional statements
+* Figure out how to use the one-line conditional statements
 * Learn how to implement more classes between multiple files
 * If possible, have input be entered on the same line as the question that was asked
 * Implement lists and for loops in another project
